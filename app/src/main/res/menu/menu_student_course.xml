@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/student_menu_main"
+            android:icon="@drawable/icon_menu_main"
+            android:title="首页"/>
+        <item
+            android:id="@+id/student_menu_notice"
+            android:icon="@drawable/icon_menu_notice"
+            android:title="消息"/>
+        <item
+            android:id="@+id/student_menu_note"
+            android:icon="@drawable/icon_menu_note"
+            android:title="笔记"/>
+        <item
+            android:id="@+id/student_menu_info"
+            android:icon="@drawable/icon_menu_me"
+            android:title="我"/>
+    </group>
+</menu>
